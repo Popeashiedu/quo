@@ -13,7 +13,7 @@
   
   :root{
 	--ff-primary: 'Manrope', sans-serif;
-	--ff-secondary: 'Playfair Display', serif;
+	--ff-secondary: 'Recoleta', serif;
 	--fc-secondary: #2CB1BC;
 	--fc-primary: #333333;
 	--clr-bg-desktop: #fdf9f8;
@@ -55,6 +55,9 @@
 .f-white{
 	color: white;
 }
+.f-14{
+	font-size: 14px;
+}
   nav a{
 	  font-size: var(--fs-p);
 	  color: #B6D2E3!important;
@@ -67,6 +70,32 @@
 	border-radius: 20px;
 	padding: .5rem 1rem;
   }
+
+  
+  /* ==============Scrollbar===================== */
+  ::-webkit-scrollbar {
+	width: 10px;
+	background-color: white;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+	box-shadow: inset 0 0 5px rgba(122, 120, 120, 0.075);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+	background: #4031B7;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+	background: black;
+	cursor: pointer;
+}
+  /* ==============ScrollbarENDS===================== */
+
+
 
   /* ====================Header================ */
   .header-phone{
