@@ -50,7 +50,7 @@
     bottom: 29%;
 /* ===========Header ends============== */
 }
-
+}
 @media all and (min-width:1200px) {
     /* ===========Header============== */
     .video-div iframe{
@@ -91,6 +91,12 @@
         bottom: 12%;
     }
 /* ===========Header ends============== */
+
+/* ============section-4================= */
+.section-4{
+    background-size: 20%;
+      }
+/* ============section-4 ends================= */
 }
 
 @media all and (min-width:2560px) {
