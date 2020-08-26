@@ -32,6 +32,9 @@
  .header-wrapper{
 	 
  }
+ h3{
+	 font-size: var(--fs-h3);
+ }
   header{
 	  background: #4031B7 url(../images/header-bg-side.png);
 	background-repeat: no-repeat;
@@ -114,3 +117,10 @@
   
 
   /* ====================Header Ends================ */
+
+
+  /* ====================Section 3 starts=============== */
+  .section-3{
+	background: #FBFAF9;
+  }
+  /* ====================Section 3 ends=============== */
