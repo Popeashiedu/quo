@@ -1,0 +1,72 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+  }
+  /* div{
+	border: solid 1px blue;
+  }
+  img{
+	border: solid 1px red;
+  } */
+  
+  
+  :root{
+	--ff-primary: 'Nunito', sans-serif;
+	--fc-secondary: #383A77;
+	--fc-primary: #333333;
+	--clr-bg-desktop: #fdf9f8;
+	--clr-bg-mobile: #ffffff;
+	--fs-h1: 48px;
+	--fs-h2: 36px;
+	--fs-h3: 24px;
+	--fs-p: 18px;
+	--fs-p-mobile: 16px;
+	--bs: 0.25em 0.25em 0.75em rgba(0,0,0,.25),  0.125em 0.125em 0.25em rgba(0,0,0,.15);
+  
+  }
+  html{
+	scroll-behavior: smooth;
+  }
+  body{
+	  font-family: var(--ff-primary);
+	  background: url(../images/quomodo_logo_high-res\ 2.png);
+	  background-repeat: no-repeat;
+	  background-size: 40%;
+	  background-position: 100% 100%;
+	  color: var(--fc-secondary);
+  }
+/* div{
+	border: 1px solid blue;
+}
+.row{
+	border: 1px solid yellow;
+} */
+
+.blue-text{
+	color: #383A77;
+}
+a{
+	text-decoration: none;
+}
+.form-control, .sign-in-btn{
+	border: 1px solid #383A77;
+    height: 40px;
+border-radius: 25px;
+}
+.lougout-btn{
+	background-color: var(--fc-secondary);
+	color: white;
+	width: 150px;
+height: 33px;
+border: 1px solid #383A77;
+box-sizing: border-box;
+border-radius: 25px;
+}
+.sign-in-btn{
+	background-color: var(--fc-secondary);
+	color: white;
+}
+.second-page{
+	width: 50%;
+}
