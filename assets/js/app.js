@@ -18,3 +18,10 @@
 //     }
 // });
 
+let btn = document.querySelector('.sign-in-btn');
+
+btn.addEventListener('click', function (e) {
+    e.preventDefault()
+    console.log('clicked');
+})
+
