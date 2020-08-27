@@ -5,13 +5,13 @@
 @media all and (min-width:576px) {}
 
 @media all and (min-width:768px) {
-    /* ===========Header============== */
-    header{
-        background: #4031B7 url(../images/header-bg-side.png);
-      background-repeat: no-repeat;
-      background-position: 100% 0%;
-      background-size: 100%;
+    .f-nav{
+        font-size: 10.5px;
     }
+    .f-14{
+        font-size: 12px;
+    }
+    /* ===========Header============== */
     .video-div{
         position: relative;
     }
@@ -22,21 +22,69 @@
     .video-container{
         overflow-x: hidden;
     }
-    .vid-container::before{
+    .vid-container::before {
         content: " ";
         width: 100%;
-        height: 54%;
+        height: 120%;
         background-color: rgba(48, 32, 175, 0.5);
         position: absolute;
         left: -3%;
-        bottom: 40%;
+        bottom: -29%;
         transition: all 0.3s ease-in-out;
     }
     /* ===========Header ends============== */
+      /* ====================Section 4 starts=============== */
+  .section-4{
+    background: url(../images/section-4-side-bg.png);
+    background-repeat: no-repeat;
+    background-position-x: 100%;
+      }
+    
+      /* ====================Section 4 ends=============== */
+
+
+      /* ====================Section 5 starts=============== */
+      .section-5{
+          background: url(../images/Rectangle\ 13.png);
+          background-position-x:0% ;
+          background-repeat: no-repeat;
+          background-size: 22%;
+      }
+      .section-5-img{
+          position: relative;
+          left: -9%;
+      }
+      .rectangtle-bottom {
+        width: 48.56px;
+        height: 146.99px;
+        left: 61%;
+        top: 69%;
+    }
+    .rectangtle-top {
+        position: absolute;
+        width: 217px;
+        height: 99px;
+        background: #60CBBE;
+        left: 44%;
+        top: -14%;
+    }
+
+    .services{
+        display: grid;
+        grid-template-areas: 'item item item item';
+        margin-left: -5%;
+    }
+      /* ====================Section 5 ends=============== */
       
 }
 
 @media all and (min-width:992px) {
+    .f-14{
+        font-size: 14px;
+    }
+    .f-nav{
+        font-size: 16px;
+    }
   /* ===========Header============== */
 
 .video-div iframe{
@@ -45,13 +93,47 @@
 .vid-container::before {
     content: " ";
     width: 100%;
-    height: 61%;
-    left: -3%;
-    bottom: 29%;
-/* ===========Header ends============== */
+    height: 105%;
+    left: -1%;
+    bottom: -17%;
 }
+/* ===========Header ends============== */
+
+ /* ====================Section 5 starts=============== */
+ .section-5-img{
+    position: relative;
+    left: -6.5%;
+}
+.rectangtle-top {
+    width: 245px;
+    height: 99px;
+    left: 51%;
+    top: -14%;
+}
+.rectangtle-bottom {
+    width: 48.56px;
+    height: 146.99px;
+    left: 66%;
+    top: 83%;
+}
+/* ====================Section 5 ends=============== */
+
+
+/* ====================Section 7=============== */
+footer a{
+    font-size: 15px;
+}
+
+
+/* ====================Section 7 ends=============== */
 }
 @media all and (min-width:1200px) {
+    h1{
+        font-size: 2.5rem;
+    }
+    .f-14{
+        font-size: 16px;
+    }
     /* ===========Header============== */
     .video-div iframe{
         left: 20%;
@@ -59,12 +141,30 @@
     .vid-container::before {
         content: " ";
         width: 100%;
-        height: 76%;
-        left: 12%;
-        bottom: 14%;
+        height: 94%;
+        left: 13%;
+        bottom: -6%;
     }
 
 /* ===========Header ends============== */
+ /* ====================Section 5 starts=============== */
+ .section-5-img{
+    position: relative;
+    left: -6%;
+}
+.rectangtle-bottom {
+    width: 71.56px;
+    height: 146.99px;
+    left: 64%;
+    top: 86%;
+}
+.rectangtle-top {
+    width: 287px;
+    height: 99px;
+    left: 53%;
+    top: -14%;
+}
+/* ====================Section 5 ends=============== */
 }
 
 @media all and (min-width:1330px) {
@@ -73,12 +173,23 @@
         left: 20%;
     }
 /* ===========Header ends============== */
+/* ===========Section 7================= */
+footer a{
+    font-size: 16px;
+}
+/* ===========Section 7 ends================= */
 }
 
 
 
 @media all and (min-width:1440px) { 
     /* ===========Header============== */
+    .f-14{
+        font-size: 20px;
+    }
+    .f-nav{
+        font-size: 18px;
+    }
 
     .video-div iframe{
         left: 27%;
@@ -86,9 +197,9 @@
     .vid-container::before {
         content: " ";
         width: 100%;
-        height: 76%;
+        height: 87%;
         left: 20%;
-        bottom: 12%;
+        bottom: 0%;
     }
 /* ===========Header ends============== */
 
@@ -97,7 +208,49 @@
     background-size: 20%;
       }
 /* ============section-4 ends================= */
+.rectangtle-top{
+	position: absolute;
+width: 403px;
+height: 134px;
+background: #60CBBE;
+left: 51%;
+top: -14%;
+}
+.rectangtle-bottom{
+	position: absolute;
+	width: 72.56px;
+	height: 180.99px;
+	background: #FDD5C3;
+	transform: rotate(89.89deg);
+	left: 57%;
+top: 86%;
+}
 }
 
+@media all and (min-width:1800px) {
+    .rectangtle-top {
+        width: 307px;
+        height: 134px;
+        left: 48%;
+        top: -14%;
+    }
+}
 @media all and (min-width:2560px) {
+    .rectangtle-top {
+        width: 307px;
+        height: 134px;
+        left: 28%;
+        top: -14%;
+    }
+
+.rectangtle-bottom {
+    position: absolute;
+    width: 72.56px;
+    height: 180.99px;
+    background: #FDD5C3;
+    transform: rotate(89.89deg);
+    left: 30%;
+    top: 86%;
+}
+
 }

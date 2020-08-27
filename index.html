@@ -5,10 +5,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro:ital,wght@0,300;0,400;1,200;1,300;1,400&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="./assets/images/Recoleta-RegularDEMO.otf">
     <!-- Font Awesome CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
-    <link rel="icon" href="">
+    <link rel="icon" href="./assets/images/icon-p.png">
     <!-- Bootstrap -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -23,17 +26,24 @@
 </head>
 
 <body>
+    <!-- PRELOADER  -->
+    <div id="overlay">
+        <div class="spinner"></div>
+    </div>
 
     <header class="pt-3">
         <div class="header-wrapper video-container">
-            <div class="container">
+            <div class="container header-z">
                 <div class="row justify-content-end d-none d-md-flex">
-                    <p class="mr-4 pr-3 header-phone header-font-color"><i class="fas fa-phone-alt"></i>+234 70 5777
+                    <p class="mr-4 pr-3 header-phone header-font-color mb-0 f-14"><i class="fas fa-phone-alt"></i>+234
+                        70
+                        5777
                         66753
                     </p>
-                    <a href="" class="header-font-color"><i class="far fa-envelope mr-2"></i>hello@proqura.ng</a>
+                    <a href="mailto:tech@quomodosystems.com" class="header-font-color f-14 header-z"><i
+                            class="far fa-envelope mr-2"></i>hello@proqura.ng</a>
                 </div>
-                <nav class=" navbar navbar-expand-md navbar-light">
+                <nav class=" navbar navbar-expand-md navbar-dark">
                     <a class="navbar-brand" href="#"><img src="./assets/images/proqura_logo_2.png" alt="" srcset=""></a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -42,25 +52,27 @@
                     <div class="collapse navbar-collapse" id="navbarNav">
                         <ul class="navbar-nav ml-md-5">
                             <li class="nav-item active mr-md-2">
-                                <a class="nav-link" href="#">How it works <span class="sr-only">(current)</span></a>
+                                <a class="nav-link f-nav" href="#">How it works <span
+                                        class="sr-only">(current)</span></a>
                             </li>
                             <li class="nav-item mr-md-2">
-                                <a class="nav-link" href="#">Customers</a>
+                                <a class="nav-link f-nav" href="#">Customers</a>
                             </li>
                             <li class="nav-item mr-md-2">
-                                <a class="nav-link" href="#">FAQ</a>
+                                <a class="nav-link f-nav" href="#">FAQ</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Pricing</a>
+                                <a class="nav-link f-nav" href="#">Pricing</a>
                             </li>
 
                         </ul>
                         <ul class="navbar-nav ml-md-auto">
-                            <li class="nav-item active mr-md-2">
-                                <a class="nav-link" href="#">Login</a>
+                            <li class="nav-item active mr-md-3">
+                                <a class="nav-link f-nav login" href="#">Login</a>
                             </li>
-                            <li class="nav-item mr-md-2">
-                                <a role="button" class="nav-link sign-up pl-2 text-center text-md-left" href="#">Sign up
+                            <li class="nav-item mr-md-2 header-z">
+                                <a role="button" class="nav-link sign-up pl-2 text-center text-md-left f-nav header-z"
+                                    href="#">Sign up
                                     <i class="fas fa-arrow-right"></i></a>
                             </li>
                         </ul>
@@ -68,24 +80,25 @@
                 </nav>
             </div>
             <div class="container">
-                <div class="row py-md-5 my-xl-4">
+                <div class="row py-lg-5 py-md-3 my-xl-4">
                     <div class="col-12 col-md-6">
-                        <h1 class="f-white">The Simpler Way to <br>Manage <span class="header-span-color">
+                        <h1 class="f-white">The Simpler Way to Manage <span class="header-span-color">
                                 Procurement</span> </h1>
-                        <p class="py-2 py-md-5">Proqura is a robust procure-to-pay system for business, <br> Automated
+                        <p class="py-2 py-lg-4 f-14">Proqura is a robust procure-to-pay system for business, <br>
+                            Automated
                             Purchasing, Simple
                             sourcing, and spend analytics-- All in one Easy to use platform</p>
                         <div class="d-md-flex mb-md-5 mb-3 align-items-center">
-                            <button class="book-btn btn mr-5">Book a demo</button><br>
-                            <a href="" class="pt-3 pt-md-0 f-white">Questions? Talk to our team <i
+                            <button class="book-btn btn mr-5 f-14 mb-3 mb-0">Book a demo</button><br>
+                            <a href="#" class="pt-3 pt-md-0 f-white f-14">Questions? Talk to our team <i
                                     class="fas fa-arrow-right"></i></a>
                         </div>
 
                     </div>
                     <div class="col-12 col-md-6 video-div">
-                        <div class="vid-container">
-                            <iframe width="100%" height="372" src="https://www.youtube.com/embed/Dls0cAMcMNM"
-                                frameborder="0"
+                        <div class="vid-container header-z mb-3 mb-md-0">
+                            <iframe class="header-z" width="100%" height="372"
+                                src="https://www.youtube.com/embed/Dls0cAMcMNM" frameborder="0"
                                 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                                 allowfullscreen></iframe>
                         </div>
@@ -94,8 +107,8 @@
                 </div>
             </div>
         </div>
-        <div>
-
+        <div class="side-bg d-none d-md-block">
+            <img src="./assets/images/header-bg-side.png" alt="">
         </div>
 
     </header>
@@ -106,8 +119,9 @@
                     <h1>Have a complete purchasing solution</h1>
                     <p class="py-3">Advertise, Approve and Manage projects for business.</p>
                 </div>
-                <div class="col-12 col-md-4 d-flex flex-column justify-content-center py-md-5">
-                    <svg class="mx-auto" width="178" height="178" viewBox="0 0 178 178" fill="none"
+                <div class="col-12 col-md-4 d-flex flex-column justify-content-center py-md-5" data-aos="fade-right"
+                    data-aos-once="true">
+                    <svg class="mx-auto section-2-icon" width="178" height="178" viewBox="0 0 178 178" fill="none"
                         xmlns="http://www.w3.org/2000/svg">
                         <circle cx="89" cy="89" r="89" fill="#4031B7" />
                         <path
@@ -125,8 +139,9 @@
                     <h3 class="text-center mt-4">Vendor Agreements</h3>
                     <p class="text-center f-14">Manage vendor agreements with ease</p>
                 </div>
-                <div class="col-12 col-md-4 d-flex flex-column justify-content-center py-md-5 py-3">
-                    <svg class="mx-auto" width="178" height="178" viewBox="0 0 178 178" fill="none"
+                <div class="col-12 col-md-4 d-flex flex-column justify-content-center py-md-5 py-3"
+                    data-aos="fade-right" data-aos-once="true" data-aos-delay="300">
+                    <svg class="mx-auto section-2-icon" width="178" height="178" viewBox="0 0 178 178" fill="none"
                         xmlns="http://www.w3.org/2000/svg">
                         <circle cx="89" cy="89" r="89" fill="#4031B7" />
                         <g clip-path="url(#clip0)">
@@ -149,8 +164,9 @@
                     <h3 class="text-center mt-4">User Management</h3>
                     <p class="text-center f-14">Onboard and fulfill user roles effectively</p>
                 </div>
-                <div class="col-12 col-md-4 d-flex flex-column justify-content-center py-md-5">
-                    <svg class="mx-auto" width="178" height="178" viewBox="0 0 178 178" fill="none"
+                <div class="col-12 col-md-4 d-flex flex-column justify-content-center py-md-5" data-aos="fade-right"
+                    data-aos-once="true" data-aos-delay="400">
+                    <svg class="mx-auto section-2-icon" width="178" height="178" viewBox="0 0 178 178" fill="none"
                         xmlns="http://www.w3.org/2000/svg">
                         <circle cx="89" cy="89" r="89" fill="#4031B7" />
                         <path
@@ -200,7 +216,7 @@
     <!-- ==============Section 3 starts ========================== -->
     <main class="section-3">
         <div class="container">
-            <div class="row py-5">
+            <div class="row py-5" data-aos="fade-up" data-aos-once="true">
                 <div class="col-12 pt-lg-5">
                     <h1 class="text-center">Full procurement platform for business</h1>
                     <p class="py-3 text-center">Contains features to automate advertising, contracting, sourcing and
@@ -232,14 +248,14 @@
 
     <!-- ==============Section 4 ========================== -->
     <main class="section-4">
-        <div class="container py-5">
+        <div class="container py-lg-5">
             <div class="row py-5">
                 <div class="col-12 col-md-6">
                     <h1>Manage work with <br>confidence</h1>
-                    <p>User-friendly with enterprise grade security</p>
-                    <div class="d-flex">
+                    <p class="f-off">User-friendly with enterprise grade security</p>
+                    <div class="d-flex pt-xl-3">
                         <div class="mr-3">
-                            <svg width="64" height="64" viewBox="0 0 64 64" fill="none"
+                            <svg class='section-4-icons' width="64" height="64" viewBox="0 0 64 64" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
                                 <circle cx="32" cy="32" r="32" fill="#4031B7" />
                                 <path
@@ -252,21 +268,21 @@
                         </div>
                         <div>
                             <h3>Secure</h3>
-                            <p>Safeguard your agreements.</p>
+                            <p class="f-off">Safeguard your agreements.</p>
                         </div>
                     </div>
-                    <div class="d-flex">
+                    <div class="d-flex py-lg-4">
                         <div class="mr-3">
-                            <img src="./assets/images/Group 61.png" alt="">
+                            <img src="./assets/images/Group 61.png" alt="icons" class='section-4-icons'>
                         </div>
                         <div>
                             <h3>Completely honest</h3>
-                            <p>Protection against data fraud.</p>
+                            <p class="f-off">Protection against data fraud.</p>
                         </div>
                     </div>
                     <div class="d-flex">
                         <div class="mr-3">
-                            <svg width="64" height="64" viewBox="0 0 64 64" fill="none"
+                            <svg class='section-4-icons' width="64" height="64" viewBox="0 0 64 64" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
                                 <circle cx="32" cy="32" r="32" fill="#4031B7" />
                                 <path
@@ -375,12 +391,12 @@
 
                         </div>
                         <div>
-                            <h3>Secure</h3>
-                            <p>Safeguard your agreements.</p>
+                            <h3>Hosted on your servers</h3>
+                            <p class="f-off">You control your data with no interferrence.</p>
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-md-6">
+                <div class="col-12 col-md-6" data-aos="zoom-in" data-aos-once="true">
                     <img src="./assets/images/Rectangle 12.png" alt="" class="img-fluid">
                     <!-- <div class="swiper-container">
                         <div class="swiper-wrapper">
@@ -398,6 +414,253 @@
         </div>
     </main>
     <!-- ==============Section 4 Ends ========================== -->
+
+
+    <!-- ==============Section 5 starts ========================== -->
+    <main class="section-5 py-5">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12 col-md-6 section-5-img-div py-5">
+                    <div class="section-5-before">
+                        <div class="rectangtle-top"></div>
+                        <div class="rectangtle-bottom"></div>
+                        <img src="./assets/images/Rectangle 16.png" alt="image" class="section-5-img img-fluid">
+                    </div>
+
+                </div>
+                <div class="col-12 col-md-6">
+                    <h2 class="pt-lg-5">Build the best experience</h2>
+                    <p class="py-4 f-off">
+                        Our modern API works for your team and your users... <br>
+                        Integrate Proqura to your team's tools or embed our <br>
+                        User-friendly proqurement solution service directly to your app
+                    </p>
+                    <div class="services">
+                        <div class="d-flex flex-column justify-content-center" data-aos="flip-up" data-aos-once="true">
+                            <svg class="mx-auto mb-3 section-5-icons" width="64" height="64" viewBox="0 0 64 64"
+                                fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="32" cy="32" r="32" fill="#4031B7" />
+                                <path
+                                    d="M42.4307 17H21.5696C21.1506 17 20.811 17.3397 20.811 17.7586V46.2414C20.811 46.6603 21.1506 47 21.5696 47H42.4307C42.8497 47 43.1892 46.6603 43.1892 46.2414V17.7586C43.1892 17.3397 42.8495 17 42.4307 17ZM31.626 20.2404H38.6808C39.0999 20.2404 39.4394 20.5801 39.4394 20.9989C39.4394 21.4178 39.0999 21.7575 38.6808 21.7575H31.626C31.207 21.7575 30.8674 21.4178 30.8674 20.9989C30.8674 20.5801 31.207 20.2404 31.626 20.2404ZM31.626 24.1471H38.6808C39.0999 24.1471 39.4394 24.4868 39.4394 24.9057C39.4394 25.3245 39.0999 25.6642 38.6808 25.6642H31.626C31.207 25.6642 30.8674 25.3245 30.8674 24.9057C30.8674 24.4868 31.207 24.1471 31.626 24.1471ZM25.8368 23.0004C25.5514 22.7907 25.3651 22.4539 25.3651 22.0736V21.3908C25.3651 20.7565 25.8813 20.2404 26.5157 20.2404C27.1502 20.2404 27.6662 20.7565 27.6662 21.3908V22.0736C27.6662 22.4539 27.4799 22.7909 27.1945 23.0004C28.0893 23.209 28.7587 24.0114 28.7587 24.9689C28.7587 25.3878 28.4192 25.7275 28.0001 25.7275H25.0312C24.6121 25.7275 24.2726 25.3878 24.2726 24.9689C24.2726 24.0114 24.942 23.209 25.8368 23.0004ZM25.0159 28.0538H38.6807C39.0997 28.0538 39.4393 28.3935 39.4393 28.8124C39.4393 29.2312 39.0997 29.5709 38.6807 29.5709H25.0159C24.5968 29.5709 24.2573 29.2312 24.2573 28.8124C24.2573 28.3935 24.597 28.0538 25.0159 28.0538ZM25.0159 31.9605H38.6807C39.0997 31.9605 39.4393 32.3002 39.4393 32.7191C39.4393 33.138 39.0997 33.4776 38.6807 33.4776H25.0159C24.5968 33.4776 24.2573 33.138 24.2573 32.7191C24.2573 32.3002 24.597 31.9605 25.0159 31.9605ZM25.0159 35.8672H38.6807C39.0997 35.8672 39.4393 36.2069 39.4393 36.6258C39.4393 37.0447 39.0997 37.3843 38.6807 37.3843H25.0159C24.5968 37.3843 24.2573 37.0447 24.2573 36.6258C24.2573 36.2069 24.597 35.8672 25.0159 35.8672ZM28.8467 42.8299H25.0159C24.5968 42.8299 24.2573 42.4902 24.2573 42.0713C24.2573 41.6524 24.5968 41.3127 25.0159 41.3127H28.8467C29.2657 41.3127 29.6053 41.6524 29.6053 42.0713C29.6053 42.4904 29.2657 42.8299 28.8467 42.8299ZM38.9843 42.8299H35.1534C34.7344 42.8299 34.3948 42.4902 34.3948 42.0713C34.3948 41.6524 34.7344 41.3127 35.1534 41.3127H38.9843C39.4033 41.3127 39.7428 41.6524 39.7428 42.0713C39.7428 42.4904 39.4033 42.8299 38.9843 42.8299Z"
+                                    fill="white" />
+                            </svg>
+                            <p class="text-center f-14-flat f-off">Requisitions</p>
+                        </div>
+                        <div class="d-flex flex-column justify-content-center" data-aos="flip-right"
+                            data-aos-once="true">
+                            <svg class="mx-auto mb-3 section-5-icons" width="64" height="64" viewBox="0 0 64 64"
+                                fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="32" cy="32" r="32" fill="#4031B7" />
+                                <path
+                                    d="M46.0416 44.3252L38.9016 36.8992C40.7374 34.7169 41.7433 31.971 41.7433 29.1125C41.7433 22.4338 36.3095 17 29.6308 17C22.9521 17 17.5183 22.4338 17.5183 29.1125C17.5183 35.7912 22.9521 41.225 29.6308 41.225C32.1381 41.225 34.5274 40.4687 36.5702 39.0331L43.7645 46.5155C44.0652 46.8278 44.4697 47 44.9031 47C45.3133 47 45.7025 46.8436 45.9979 46.5592C46.6257 45.9552 46.6457 44.9535 46.0416 44.3252ZM29.6308 20.1598C34.5674 20.1598 38.5835 24.1759 38.5835 29.1125C38.5835 34.0491 34.5674 38.0652 29.6308 38.0652C24.6942 38.0652 20.6781 34.0491 20.6781 29.1125C20.6781 24.1759 24.6942 20.1598 29.6308 20.1598Z"
+                                    fill="white" />
+                            </svg>
+                            <p class="text-center f-14-flat f-off">Sourcing</p>
+                        </div>
+                        <div class="d-flex flex-column justify-content-center" data-aos="flip-down"
+                            data-aos-once="true">
+                            <svg class="mx-auto mb-3 section-5-icons" width="64" height="64" viewBox="0 0 64 64"
+                                fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="32" cy="32" r="32" fill="#4031B7" />
+                                <path
+                                    d="M40.9102 45.1211V18.6367L38.2734 16L36.5156 17.7578L34.7578 16L33 17.7578L31.2422 16L29.4844 17.7578L27.7266 16L25.9688 17.7578L24.2109 16L21.5742 18.6367V41.6066C21.5742 44.0295 23.5459 46 25.9688 46H41.0613C40.9635 45.7252 40.9102 45.4293 40.9102 45.1211ZM37.3945 38.9688H25.0898V37.2109H37.3945V38.9688ZM32.1211 30.1797V31.9375H26.8477V30.1797H32.1211ZM26.8477 28.4219V26.6641H32.1211V28.4219H26.8477ZM32.1211 33.6953V35.4531H26.8477V33.6953H32.1211ZM35.6367 30.1797V31.9375H33.8789V30.1797H35.6367ZM33.8789 28.4219V26.6641H35.6367V28.4219H33.8789ZM35.6367 33.6953V35.4531H33.8789V33.6953H35.6367ZM37.3945 24.9062H25.0898V23.1484H37.3945V24.9062Z"
+                                    fill="white" />
+                                <path
+                                    d="M42.668 38.9688V45.1211C42.668 45.6065 43.0615 46 43.5469 46C44.0323 46 44.4258 45.6065 44.4258 45.1211V38.9688H42.668Z"
+                                    fill="white" />
+                            </svg>
+                            <p class="text-center f-14-flat f-off">Invoicing</p>
+                        </div>
+                        <div class="d-flex flex-column justify-content-center" data-aos="flip-right"
+                            data-aos-once="true">
+                            <svg class="mx-auto mb-3 section-5-icons" width="64" height="64" viewBox="0 0 64 64"
+                                fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="32" cy="32" r="32" fill="#4031B7" />
+                                <path
+                                    d="M42.228 17H21.7731C21.0199 17 20.4097 17.6109 20.4097 18.364V45.6366C20.4097 46.3898 21.0205 47.0006 21.7731 47.0006H42.228C42.9812 47.0006 43.5914 46.3898 43.5914 45.6366V18.364C43.5914 17.6109 42.9812 17 42.228 17ZM40.8639 19.7268V23.8177H23.1365V19.7268H40.8639ZM23.1365 44.2738V26.5451H40.8639V44.2719H23.1365V44.2738Z"
+                                    fill="white" />
+                                <path
+                                    d="M28.0126 27.7515H25.1817C24.8051 27.7515 24.5 28.0572 24.5 28.4332V31.2659C24.5 31.6425 24.8057 31.9476 25.1817 31.9476H28.0126C28.3891 31.9476 28.6943 31.6419 28.6943 31.2659V28.4332C28.6949 28.0559 28.3904 27.7515 28.0126 27.7515Z"
+                                    fill="white" />
+                                <path
+                                    d="M33.415 27.7515H30.5848C30.2082 27.7515 29.9031 28.0572 29.9031 28.4332V31.2659C29.9031 31.6425 30.2082 31.9476 30.5848 31.9476H33.415C33.7916 31.9476 34.0967 31.6419 34.0967 31.2659V28.4332C34.0973 28.0559 33.7916 27.7515 33.415 27.7515Z"
+                                    fill="white" />
+                                <path
+                                    d="M38.8181 27.7515H35.9872C35.6106 27.7515 35.3062 28.0572 35.3062 28.4332V31.2659C35.3062 31.6425 35.6113 31.9476 35.9872 31.9476H38.8181C39.1947 31.9476 39.4998 31.6419 39.4998 31.2659V28.4332C39.4998 28.0559 39.1947 27.7515 38.8181 27.7515Z"
+                                    fill="white" />
+                                <path
+                                    d="M28.0126 33.3118H25.1817C24.8051 33.3118 24.5 33.6169 24.5 33.9928V36.8256C24.5 37.2022 24.8057 37.5067 25.1817 37.5067H28.0126C28.3891 37.5067 28.6943 37.2016 28.6943 36.8256V33.9928C28.6949 33.6156 28.3904 33.3118 28.0126 33.3118Z"
+                                    fill="white" />
+                                <path
+                                    d="M33.415 33.3118H30.5848C30.2082 33.3118 29.9031 33.6169 29.9031 33.9928V36.8256C29.9031 37.2022 30.2082 37.5067 30.5848 37.5067H33.415C33.7916 37.5067 34.0967 37.2016 34.0967 36.8256V33.9928C34.0973 33.6156 33.7916 33.3118 33.415 33.3118Z"
+                                    fill="white" />
+                                <path
+                                    d="M28.0126 38.8718H25.1817C24.8051 38.8718 24.5 39.1769 24.5 39.5523V42.385C24.5 42.7629 24.8057 43.0667 25.1817 43.0667H28.0126C28.3891 43.0667 28.6943 42.761 28.6943 42.385V39.5523C28.6949 39.1757 28.3904 38.8718 28.0126 38.8718Z"
+                                    fill="white" />
+                                <path
+                                    d="M33.415 38.8718H30.5848C30.2082 38.8718 29.9031 39.1769 29.9031 39.5523V42.385C29.9031 42.7629 30.2082 43.0667 30.5848 43.0667H33.415C33.7916 43.0667 34.0967 42.761 34.0967 42.385V39.5523C34.0973 39.1757 33.7916 38.8718 33.415 38.8718Z"
+                                    fill="white" />
+                                <path
+                                    d="M38.8181 33.3118H35.9872C35.6106 33.3118 35.3062 33.6169 35.3062 33.9928V42.3852C35.3062 42.763 35.6113 43.0669 35.9872 43.0669H38.8181C39.1947 43.0669 39.4998 42.7611 39.4998 42.3852V33.9928C39.4998 33.6156 39.1947 33.3118 38.8181 33.3118Z"
+                                    fill="white" />
+                            </svg>
+
+                            <p class="text-center f-14-flat f-off">Budgeting</p>
+                        </div>
+                    </div>
+                    <div class="services pr-md-2">
+                        <div class="d-flex flex-column justify-content-center" data-aos="flip-up" data-aos-once="true">
+                            <svg class="mx-auto mb-3 section-5-icons" width="64" height="64" viewBox="0 0 64 64"
+                                fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="32" cy="32" r="32" fill="#4031B7" />
+                                <path
+                                    d="M38.0198 16.4282H23.9698C22.6491 16.4282 21.5747 17.5026 21.5747 18.8233V43.572H23.0117V23.5135H38.9778V43.5717H40.4148V18.823C40.4149 17.5025 39.3405 16.4282 38.0198 16.4282ZM26.34 20.8195H24.5836V19.3824H26.34V20.8195ZM29.2938 20.8195H27.5373V19.3824H29.2938V20.8195Z"
+                                    fill="white" />
+                                <path
+                                    d="M32.6309 30.3192H31.5915C32.5804 30.0557 33.3102 29.1564 33.3102 28.0842C33.3102 26.8053 32.2736 25.7687 30.9949 25.7687C29.716 25.7687 28.6794 26.8053 28.6794 28.0842C28.6794 29.1564 29.409 30.0557 30.3983 30.3192H29.3584C28.4325 30.3192 27.6819 31.0701 27.6819 31.9958V37.1852H29.1089V43.2724H32.8808V37.1852H34.3075V31.9958C34.3074 31.0701 33.557 30.3192 32.6309 30.3192Z"
+                                    fill="white" />
+                                <path
+                                    d="M41.947 33.8122L44.9138 35.8898L45.7379 34.7129L42.7712 32.6353L41.947 33.8122Z"
+                                    fill="white" />
+                                <path d="M46 29.6294H42.3779V31.0664H46V29.6294Z" fill="white" />
+                                <path
+                                    d="M45.7277 26.0087L44.9033 24.8313L41.9356 26.9093L42.76 28.0866L45.7277 26.0087Z"
+                                    fill="white" />
+                                <path
+                                    d="M16.2621 34.7123L17.0862 35.8892L20.053 33.8116L19.2288 32.6347L16.2621 34.7123Z"
+                                    fill="white" />
+                                <path d="M19.6222 29.6294H16V31.0664H19.6222V29.6294Z" fill="white" />
+                                <path
+                                    d="M16.2734 26.0074L19.2402 28.085L20.0645 26.9079L17.0977 24.8303L16.2734 26.0074Z"
+                                    fill="white" />
+                            </svg>
+                            <p class="text-center f-14-flat f-off">Vendor portal</p>
+                        </div>
+                        <div class="d-flex flex-column justify-content-center" data-aos="flip-right"
+                            data-aos-once="true">
+                            <svg class="mx-auto mb-3 section-5-icons" width="64" height="64" viewBox="0 0 64 64"
+                                fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="32" cy="32" r="32" fill="#4031B7" />
+                                <path
+                                    d="M21.4531 30.0625C22.1622 30.0625 22.804 29.778 23.2782 29.3212L25.8799 30.6219C25.8669 30.7279 25.8477 30.832 25.8477 30.9414C25.8477 32.3953 27.0305 33.5781 28.4844 33.5781C29.9382 33.5781 31.1211 32.3953 31.1211 30.9414C31.1211 30.5356 31.0213 30.1557 30.8567 29.8119L34.3861 26.2825C34.7299 26.4471 35.1098 26.5469 35.5156 26.5469C36.9695 26.5469 38.1523 25.364 38.1523 23.9102C38.1523 23.6364 38.0986 23.3775 38.0207 23.1292L41.0873 20.8299C41.5057 21.1093 42.0072 21.2734 42.5469 21.2734C44.0007 21.2734 45.1836 20.0906 45.1836 18.6367C45.1836 17.1829 44.0007 16 42.5469 16C41.093 16 39.9102 17.1829 39.9102 18.6367C39.9102 18.9105 39.9639 19.1693 40.0418 19.4177L36.9752 21.717C36.5568 21.4375 36.0553 21.2734 35.5156 21.2734C34.0618 21.2734 32.8789 22.4563 32.8789 23.9102C32.8789 24.316 32.9787 24.6959 33.1433 25.0397L29.6139 28.569C29.2701 28.4045 28.8902 28.3047 28.4844 28.3047C27.7753 28.3047 27.1335 28.5892 26.6593 29.046L24.0576 27.7453C24.0706 27.6393 24.0898 27.5352 24.0898 27.4258C24.0898 25.9719 22.907 24.7891 21.4531 24.7891C19.9993 24.7891 18.8164 25.9719 18.8164 27.4258C18.8164 28.8796 19.9993 30.0625 21.4531 30.0625Z"
+                                    fill="white" />
+                                <path
+                                    d="M46.1211 44.2422H45.1836V25.668C45.1836 25.1823 44.7904 24.7891 44.3047 24.7891H40.7891C40.3034 24.7891 39.9102 25.1823 39.9102 25.668V44.2422H38.1523V30.9414C38.1523 30.4557 37.7591 30.0625 37.2734 30.0625H33.7578C33.2721 30.0625 32.8789 30.4557 32.8789 30.9414V44.2422H31.1211V37.9727C31.1211 37.487 30.7279 37.0938 30.2422 37.0938H26.7266C26.2409 37.0938 25.8477 37.487 25.8477 37.9727V44.2422H24.0898V34.457C24.0898 33.9713 23.6966 33.5781 23.2109 33.5781H19.6953C19.2096 33.5781 18.8164 33.9713 18.8164 34.457V44.2422H17.8789C17.3932 44.2422 17 44.6354 17 45.1211C17 45.6068 17.3932 46 17.8789 46H46.1211C46.6068 46 47 45.6068 47 45.1211C47 44.6354 46.6068 44.2422 46.1211 44.2422Z"
+                                    fill="white" />
+                            </svg>
+
+                            <p class="text-center f-14-flat f-off">Real time reports</p>
+                        </div>
+                        <div class="d-flex flex-column justify-content-center" data-aos="flip-left"
+                            data-aos-once="true">
+                            <svg class="mx-auto mb-3 section-5-icons" width="64" height="64" viewBox="0 0 64 64"
+                                fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="32" cy="32" r="32" fill="#4031B7" />
+                                <path
+                                    d="M35.1037 23.7099C36.4908 24.5796 37.4635 26.0514 37.6406 27.7597C38.2063 28.024 38.8341 28.176 39.4998 28.176C41.93 28.176 43.8997 26.2064 43.8997 23.7766C43.8997 21.3464 41.93 19.3767 39.4998 19.3767C37.0928 19.3775 35.1404 21.3119 35.1037 23.7099ZM32.2213 32.7185C34.6514 32.7185 36.6211 30.7485 36.6211 28.3187C36.6211 25.8889 34.6511 23.9192 32.2213 23.9192C29.7915 23.9192 27.8207 25.8893 27.8207 28.3191C27.8207 30.7489 29.7915 32.7185 32.2213 32.7185ZM34.0876 33.0184H30.3542C27.2478 33.0184 24.7207 35.5459 24.7207 38.6523V43.218L24.7323 43.2895L25.0468 43.3879C28.0112 44.3142 30.5867 44.6231 32.7065 44.6231C36.8469 44.6231 39.2467 43.4426 39.3946 43.3673L39.6885 43.2187H39.72V38.6523C39.7211 35.5459 37.1939 33.0184 34.0876 33.0184ZM41.3669 28.4763H37.6623C37.6222 29.9585 36.9895 31.2932 35.9888 32.2532C38.7499 33.0742 40.7701 35.6347 40.7701 38.659V40.066C44.4279 39.9319 46.5358 38.8952 46.6747 38.8256L46.9685 38.6766H47V34.1094C47 31.0034 44.4729 28.4763 41.3669 28.4763ZM24.5009 28.1768C25.3617 28.1768 26.1625 27.9256 26.8409 27.4976C27.0565 26.091 27.8106 24.8619 28.8877 24.0248C28.8922 23.9424 28.9 23.8608 28.9 23.7777C28.9 21.3475 26.93 19.3778 24.5009 19.3778C22.0704 19.3778 20.1011 21.3475 20.1011 23.7777C20.1011 26.2067 22.0704 28.1768 24.5009 28.1768ZM28.4523 32.2532C27.4564 31.2981 26.8259 29.9705 26.7799 28.4973C26.6425 28.4872 26.5066 28.4763 26.3665 28.4763H22.6335C19.5271 28.4763 17 31.0034 17 34.1094V38.6758L17.0116 38.7462L17.3261 38.8454C19.7042 39.5879 21.8267 39.9301 23.6702 40.0379V38.659C23.6709 35.6347 25.6904 33.075 28.4523 32.2532Z"
+                                    fill="white" />
+                            </svg>
+                            <p class="text-center f-14-flat">User roles control</p>
+                        </div>
+                        <div class="d-flex flex-column justify-content-center" data-aos="flip-down"
+                            data-aos-once="true">
+                            <svg class="mx-auto mb-3 section-5-icons" width="64" height="64" viewBox="0 0 64 64"
+                                fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="32" cy="32" r="32" fill="#4031B7" />
+                                <g clip-path="url(#clip0)">
+                                    <path
+                                        d="M19.9784 40.5473H18.9376C18.4518 40.5473 18.0001 40.9404 18.0001 41.4262C18.0001 41.912 18.4518 42.3051 18.9376 42.3051H19.9784C20.3425 43.326 21.309 44.063 22.4533 44.063C23.5977 44.063 24.5642 43.326 24.9282 42.3051H28.7678C29.1318 43.326 30.0983 44.063 31.2427 44.063C32.387 44.063 33.3535 43.326 33.7176 42.3051H37.5571C37.9212 43.326 38.8876 44.063 40.032 44.063C41.1764 44.063 42.1428 43.326 42.5069 42.3051H45.0003L44.7427 42.5627C44.3994 42.906 44.3994 43.4622 44.7427 43.8055C44.9144 43.9772 45.1393 44.0631 45.3641 44.0631C45.589 44.0631 45.8139 43.9772 45.9855 43.8055L47.7424 42.0487C47.8239 41.9674 47.8886 41.87 47.9333 41.7618C48.0221 41.547 48.0221 41.3054 47.9333 41.0906C47.8885 40.9825 47.8239 40.8851 47.7424 40.8038L45.9855 39.0469C45.6422 38.7036 45.086 38.7036 44.7427 39.0469C44.3994 39.3902 44.3994 39.9465 44.7427 40.2898L45.0002 40.5473H42.5068C42.2413 39.8027 41.6555 39.2169 40.9109 38.9514V32.9074C41.7385 31.6911 44.4266 27.5916 44.4266 25.6054C44.4266 23.1823 42.455 21.2107 40.0319 21.2107C37.6088 21.2107 35.6373 23.1823 35.6373 25.6054C35.6373 27.5916 38.3253 31.6911 39.153 32.9074V38.9513C38.4084 39.2169 37.8226 39.8026 37.557 40.5473H33.7175C33.4519 39.8026 32.8662 39.2169 32.1215 38.9513V27.6337C32.9492 26.4175 35.6373 22.318 35.6373 20.3318C35.6373 17.9087 33.6657 15.9371 31.2426 15.9371C28.8195 15.9371 26.8479 17.9087 26.8479 20.3318C26.8479 22.318 29.536 26.4175 30.3637 27.6337V38.9513C29.619 39.2169 29.0333 39.8026 28.7677 40.5473H24.9282C24.6626 39.8026 24.0768 39.2169 23.3322 38.9513V36.4231C24.1599 35.2068 26.8479 31.1073 26.8479 29.1211C26.8479 26.698 24.8764 24.7265 22.4533 24.7265C20.0302 24.7265 18 26.698 18 29.1211C18 31.1073 20.7467 35.2068 21.5743 36.4231V38.9513C20.8298 39.2169 20.244 39.8026 19.9784 40.5473ZM40.032 24.7265C40.5174 24.7265 40.9109 25.12 40.9109 25.6054C40.9109 26.0908 40.5174 26.4843 40.032 26.4843C39.5466 26.4843 39.1531 26.0908 39.1531 25.6054C39.1531 25.12 39.5466 24.7265 40.032 24.7265ZM31.2427 19.4529C31.7281 19.4529 32.1216 19.8464 32.1216 20.3318C32.1216 20.8172 31.7281 21.2107 31.2427 21.2107C30.7573 21.2107 30.3637 20.8172 30.3637 20.3318C30.3637 19.8464 30.7573 19.4529 31.2427 19.4529ZM22.4533 28.2422C22.9387 28.2422 23.3323 28.6357 23.3323 29.1211C23.3323 29.6065 22.9387 30.0001 22.4533 30.0001C21.9679 30.0001 21.5744 29.6065 21.5744 29.1211C21.5744 28.6357 21.9679 28.2422 22.4533 28.2422Z"
+                                        fill="white" />
+                                </g>
+                                <defs>
+                                    <clipPath id="clip0">
+                                        <rect width="30" height="30" fill="white" transform="translate(18 15)" />
+                                    </clipPath>
+                                </defs>
+                            </svg>
+
+                            <p class="text-center f-14-flat f-off">Workflows</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </main>
+    <!-- ==============Section 5 ends ========================== -->
+
+
+    <!-- ==============Section 6 ========================== -->
+    <section class="section-6">
+        <div class="container">
+            <div class="row justify-content-between py-lg-4">
+                <div class="col-12 col-md-5 py-5">
+                    <h1 class="mt-xl-3 f-white">Sign here</h1>
+                    <p class="f-white">Book a demo and start your 14 day free trial:</p>
+                </div>
+                <div class="col-12 col-md-5 py-md-5  pb-3 d-flex align-items-center">
+                    <button class="book-btn btn ml-md-auto">Book a demo</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ==============Section 6 ends ========================== -->
+    <!-- ==============Section 7 ========================== -->
+    <footer>
+        <div class="container">
+            <div class="row py-5">
+                <div class="col-6 col-md-2">
+                    <ul class="list">
+                        <li class="mb-md-3"><strong>Company</strong></li>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Social</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-md-2">
+                    <ul class="list">
+                        <li class="mb-md-3"><strong>Resources</strong></li>
+                        <li><a href="#">Book a demo</a></li>
+                        <li><a href="#">Help center</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-md-2">
+                    <ul class="list">
+                        <li class="mb-md-3"><strong>Features</strong></li>
+                        <li><a href="#">How it works</a></li>
+                        <li><a href="#">Documentation</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-md-3">
+                    <ul class="list">
+                        <li class="mb-md-3"><strong>Contact</strong></li>
+                        <li><a href="mailto:tech@quomodosystems.com">hello@proqura.com</a></li>
+                        <li><a href="#">+234 70 5777 6753</a></li>
+                    </ul>
+                </div>
+                <div class="col-12 col-md-3">
+                    <img src="./assets/images/proqura_logo_purple.svg" alt="" class="img-fluid ml-xl-5 pl-xl-5">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 text-left text-md-right">
+                    <p class="f-footer-off">Change language <a href="#"
+                            style="color:#8888d1;"><strong>English</strong></a></p>
+                </div>
+            </div>
+            <hr>
+            <nav class="row">
+                <div class="col-md-3 col-12">
+                    <p class="text-center text-md-left f-footer-off">Proqura-All rights reserved</p>
+                </div>
+                <ul class="ml-md-auto d-flex justify-content-between col-12 col-md-4">
+                    <li class="pr-2"><a href="#" class="f-footer-off">Terms of service</a> </li>
+                    <li class="pr-2"><a href="#" class="f-footer-off">Privacy</a></li>
+                    <li><a href="#" class="f-footer-off">Legal Notice</a></li>
+                </ul>
+            </nav>
+        </div>
+    </footer>
+    <!-- ==============Section 7 ends ========================== -->
 
 
     <!-- Swiper JS  -->
